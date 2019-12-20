@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   @media (max-width:400px) {
+        .left {
+        width:100%;
+        display: none;
+        word-spacing: 130px;
+        }
+    }
+   
+
+.left a {
+    color: white;
+    height: 10%;
+    width: 10%;
+}
+
+
+img:hover {opacity: 0.7;}
+
+header {
+    font-family: cursive;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: 3px 2px black;
+}
+
+
+
+p, h1  {
+    color: white;
+
+}
+
+h1 {
+        margin-top: -15%;
+
+}
+
+header {
+    color: navajowhite;
+    background-color: midnightblue;
+    margin-bottom: 10%;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left {
+    font-family: monospace;
+    color: palegoldenrod;
+    background-color: midnightblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 150%;
+    
+}
+
+.left a, i {
+    color: palegoldenrod;
+    background-color: midnightblue;
+}
+
+footer {
+    font-size: 90%;
+    margin-top: 13%;
+    font-family: Verdana, sans-serif;
+  margin: 0;
+}
+    
+/*-------------------------------w3schools code below------------------------------------*/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+    
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; 
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+    
+ <center><header><i class="fa fa-question"></i><i class="fa fa-pencil"></i>Art by Andre
+        <i class="fa fa-paint-brush"> <i class="fas fa-folder-open"></i></i></header>
+           
+        <div id="container">
+        <div class="left">
+        <a class="active" href="index.html"><i class="fa fa-home"></i><br>Home</a><br>
+        <a href="about.html"><i class="fa fa-user"></i><br>About</a><br>
+        <a href="gallery.html"><i class="fa fa-photo"></i><br>Gallery</a><br>
+        </div>   
+        </div>
+            <h1>My Art Gallery</h1>
+        <p>Here is some of my selected artwork.</p>
+            <br><br><br>
+        
+
+<img id="myImg" src="sidd.jpg" alt="Siddhartha" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="cap.jpg" alt="Captain America: Civil War" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="limade.jpg" alt="Limade" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="dc.jpg" alt="Detective Comics #1000" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="adam.jpg" alt="Adam Young" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="venom.jpg" alt="Amazing Spider-Man #347" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="robot.jpg" alt="Iron Man and Megaman" style="width:100%;max-width:300px">
+    
+<img id="myImg" src="sea.jpg" alt="Finding Nemo meets Spongebob" style="width:100%;max-width:300px">
+            
+            
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="img01">
+<div id="caption"></div>
+</div>
+            <footer><p>&#169; Copyright, 2019. Site created by Andre Sadhu. Pictures by the same person.</p></footer></center>   
+    
+    
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
