@@ -1,0 +1,86 @@
+img {
+    height: 20%;
+    width: 20%;
+}
+
+img p {
+    font-size: 20%;
+}
+
+
+
+header {
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 8px;
+    background-color: mediumvioletred;
+    margin-bottom: 10%;
+    text-shadow: 3px 2px black;
+    color: limegreen;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left {
+    font-family: monospace;
+    background-color: mediumvioletred;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 150%;
+    text-align:center;
+}
+
+.left i, .left a {
+    color: mediumblue;
+    background-color: mediumvioletred;
+}
+
+h1 {
+margin-top: -15%;
+}
+
+body {
+    background-color: palevioletred;
+}
+
+h2 {
+    font-family: monospace;
+
+}
+
+#words {
+    margin-bottom: -20%;
+}
+
+
+.fa-twitter {
+  background: none;
+  color: dodgerblue;
+text-decoration: none;
+}
+
+.fa-instagram {
+  background: magenta;
+  color: white;
+}
+
+.fa-youtube {
+  background: white;
+  color: red;
+}
+
+footer {
+    font-size: 90%;
+    margin-top: 30%;
+}
+
+
